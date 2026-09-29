@@ -65,7 +65,7 @@
   ----------------------------------------------------------- */
   const header = document.getElementById("siteHeader");
   const backToTop = document.getElementById("backToTop");
-  const sections = ["home", "about", "skills", "projects", "contact"]
+  const sections = ["home", "about", "skills", "projects", "experience", "contact"]
     .map((id) => document.getElementById(id))
     .filter(Boolean);
   const navLinks = Array.from(document.querySelectorAll(".nav-link"));
